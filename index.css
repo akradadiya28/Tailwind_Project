@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@tailwind base;
+@tailwind components;
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+@tailwind utilities;
