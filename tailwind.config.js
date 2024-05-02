@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
 module.exports = {
-  content: ['index.html'],
+  content: ['./*'],
   theme: {
     screens: {
       'sm': '640px',
@@ -20,13 +21,6 @@ module.exports = {
     },
     container: {
       center: true,
-      // padding: {
-      //   DEFAULT: '1rem',
-      //   sm: '2rem',
-      //   lg: '4rem',
-      //   xl: '5rem',
-      //   '2xl': '6rem',
-      // },
     },
     fontFamily: {
       sans: [
@@ -47,7 +41,8 @@ module.exports = {
         color: {
           primary: "#E8604C",
         },
-      },
+      }
+      ,
     },
   },
   plugins: [],

@@ -8,7 +8,7 @@
 .header-fix {
   background-color: #121316;
   position: fixed !important;
-  z-index: 9999 !important;
+  z-index: 999 !important;
   width: 100% !important;
   transition: all 0.5s;
 }
